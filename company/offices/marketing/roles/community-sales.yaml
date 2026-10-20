@@ -1,0 +1,21 @@
+id: "community-sales"
+version: 1
+display_name: "Cộng đồng & chốt đơn"
+avatar: "💬"
+
+pitch: "Soạn kịch bản trả lời inbox và bình luận, quy trình nhận MOCKUP, nội dung nhóm Telegram, kịch bản chốt đơn và chăm sóc lại khách."
+good_at: [kịch bản inbox, trả lời bình luận, quy trình MOCKUP, chốt đơn, Telegram]
+not_for: [video, quảng cáo, chiến lược tổng]
+
+skill_level: medium
+skills:
+  medium: skills/community-sales.medium.md
+
+tools: []
+model_tier: standard
+use_preset: false
+
+budget:
+  max_turns: 15
+  max_usd: 5.0
+  knowledge_pack: 3000

@@ -1,0 +1,12 @@
+# agentco: trạng thái chạy, token, nhật ký. KHÔNG commit.
+company/.state/
+company/logs/
+company/offices/*/.state/
+company/offices/*/library/text/
+
+# Hệ điều hành / editor
+.DS_Store
+Thumbs.db
+.vscode/
+node_modules/
+.env

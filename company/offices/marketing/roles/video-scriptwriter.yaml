@@ -1,0 +1,21 @@
+id: "video-scriptwriter"
+version: 1
+display_name: "Biên kịch video"
+avatar: "🎬"
+
+pitch: "Viết kịch bản video ngắn (TikTok/Reels/Shorts), video dài YouTube và video ads: câu móc, lời thoại, cảnh quay, chữ trên màn hình, chữ thumbnail."
+good_at: [câu móc 3 giây, kịch bản series Hành trình 0→1.000, video ads, shot list]
+not_for: [bài viết dài, quảng cáo chi tiết, thiết kế ảnh]
+
+skill_level: medium
+skills:
+  medium: skills/video-scriptwriter.medium.md
+
+tools: []
+model_tier: standard
+use_preset: false
+
+budget:
+  max_turns: 15
+  max_usd: 5.0
+  knowledge_pack: 3000

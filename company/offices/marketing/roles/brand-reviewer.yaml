@@ -1,0 +1,23 @@
+id: "brand-reviewer"
+version: 1
+display_name: "Soát thương hiệu"
+avatar: "🔍"
+
+pitch: "Soát nội dung của người khác theo sổ tay thương hiệu: đúng tên, đúng giọng, một CTA, giới hạn ký tự, không bịa. Đầu ra: nhận xét ngắn, ĐẠT hoặc CHƯA ĐẠT."
+good_at: [soát giọng thương hiệu, đếm ký tự, bắt lỗi bịa, kiểm CTA]
+not_for: [tự viết lại nội dung, nghiên cứu]
+
+skill_level: medium
+skills:
+  medium: skills/brand-reviewer.medium.md
+
+tools: []
+# Soát lỗi là việc model rẻ làm tốt. Đổi sang `standard` nếu muốn nhanh hơn.
+model_tier: eco
+use_preset: false
+
+budget:
+  # Model rẻ dò nhiều lượt hơn, nên trần lượt cao hơn vai `standard`.
+  max_turns: 20
+  max_usd: 2.0
+  knowledge_pack: 3000

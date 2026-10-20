@@ -1,0 +1,21 @@
+id: "copywriter"
+version: 1
+display_name: "Copywriter"
+avatar: "✍️"
+
+pitch: "Viết chữ theo giọng ETHAN STUDIO: caption, bài Facebook/LinkedIn/Threads, bio, email, tin Telegram, trang bán hàng. Đầu ra: file markdown."
+good_at: [caption, bài đăng, bio, email, tin nhắn Telegram, nội dung trang web]
+not_for: [kịch bản video, số liệu, chiến lược]
+
+skill_level: medium
+skills:
+  medium: skills/copywriter.medium.md
+
+tools: []
+model_tier: standard
+use_preset: false
+
+budget:
+  max_turns: 15
+  max_usd: 5.0
+  knowledge_pack: 3000

@@ -1,0 +1,22 @@
+id: "trend-researcher"
+version: 1
+display_name: "Săn xu hướng"
+avatar: "🔎"
+
+pitch: "Tìm xu hướng, hashtag và âm thanh đang lên, nội dung đối thủ, nỗi đau của chủ quán trên web. Đầu ra: file tóm tắt có nguồn."
+good_at: [xu hướng TikTok/Reels, phân tích đối thủ, tìm nỗi đau khách hàng, từ khoá]
+not_for: [viết bài hoàn chỉnh, lên chiến lược]
+
+skill_level: medium
+skills:
+  medium: skills/trend-researcher.medium.md
+
+# WebSearch và WebFetch đã có sẵn cho mọi nhân viên.
+tools: []
+model_tier: standard
+use_preset: false
+
+budget:
+  max_turns: 15
+  max_usd: 5.0
+  knowledge_pack: 3000
