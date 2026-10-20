@@ -1,0 +1,23 @@
+id: "brand-strategist"
+version: 1
+display_name: "Chiến lược thương hiệu"
+avatar: "🧭"
+
+# `pitch` là THỨ DUY NHẤT Trưởng phòng nhìn thấy khi chia việc. Giữ ngắn.
+pitch: "Lên chiến lược, định vị, thông điệp, kế hoạch chiến dịch và lịch nội dung tuần cho ETHAN STUDIO. Đầu ra: file kế hoạch markdown."
+good_at: [định vị, kế hoạch chiến dịch, lịch nội dung tuần, chọn kênh ưu tiên]
+not_for: [viết bài hoàn chỉnh, kịch bản video chi tiết, đọc số liệu thô]
+
+skill_level: medium
+skills:
+  medium: skills/brand-strategist.medium.md
+
+tools: []
+# Muốn chiến lược sâu hơn thì đổi sang `deep` (đắt hơn nhiều).
+model_tier: standard
+use_preset: false
+
+budget:
+  max_turns: 15
+  max_usd: 5.0
+  knowledge_pack: 3000

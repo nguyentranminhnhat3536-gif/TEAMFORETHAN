@@ -1,0 +1,12 @@
+# Văn phòng Marketing của ETHAN STUDIO.
+# Thư mục này tự chứa: copy nguyên `offices/marketing/` sang máy khác là chạy được.
+# Cách chạy: xem README.md ở gốc repo.
+id: "marketing"
+name: "Marketing ETHAN STUDIO"
+charter_file: charter.md
+
+assistant:
+  display_name: "Trưởng phòng Marketing"
+  avatar: "📣"
+  default_deliver: file
+  mcp: []

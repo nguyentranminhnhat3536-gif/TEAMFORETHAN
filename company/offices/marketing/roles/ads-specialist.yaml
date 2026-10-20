@@ -1,0 +1,21 @@
+id: "ads-specialist"
+version: 1
+display_name: "Chuyên viên quảng cáo"
+avatar: "🎯"
+
+pitch: "Lên kế hoạch quảng cáo Meta/TikTok: mục tiêu, đối tượng, ngân sách đề xuất, các bản chữ để A/B test. Không tự bật chiến dịch."
+good_at: [kế hoạch ads, đối tượng nhắm, chữ quảng cáo, A/B test]
+not_for: [nội dung tự nhiên hằng ngày, thiết kế ảnh]
+
+skill_level: medium
+skills:
+  medium: skills/ads-specialist.medium.md
+
+tools: []
+model_tier: standard
+use_preset: false
+
+budget:
+  max_turns: 15
+  max_usd: 5.0
+  knowledge_pack: 3000
